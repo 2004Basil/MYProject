@@ -1,0 +1,194 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    margin:20px 50px;
+    height: 1500px
+    
+}
+.contenar{
+    margin:20px 70px
+
+}
+
+/* start for navbar */
+.head{
+    display: flex ;
+    justify-content: flex-end;
+    margin:20px 70px
+
+}
+.head .link li{
+    display: inline-block;
+    margin-right:  25px;
+    list-style: none;
+}
+.head  li a{
+    text-decoration: none;
+    color: black;
+}
+/* end for navbar */
+
+/* start for div_1 */
+.div_1{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 90px;
+}
+.img{
+    border: black 3px solid;
+    border-radius: calc(400px/2);
+    width: 150px;
+    height: 150px;
+}
+.div_1 .text{
+    position: relative;
+    width: 250px;
+
+}
+.div_1 .text .but{
+    padding: 8px 15px;
+    background: #FF6464;
+    border-radius: 2px;
+    border: none;
+}
+
+
+.div_1 .text h1{
+    position:absolute;
+    top:20px;
+}
+.div_1 .text p{
+    width:500px ;
+}
+/* end for div_1*/
+
+/* start for div_2*/
+.div_2{
+    position: relative;
+    width: 90%;
+    height: 450px;
+    margin:20px 70px;
+    background:#EDF7FA;
+
+}
+.div_2 .head_2    {
+    display: flex;
+
+width: 100%;
+}
+
+.div_2 .head_2 .p2{
+    position: absolute;
+    left: 860px;
+    color:#00A8CC;
+    top:70px;
+}
+.div_2 .head_2 .p1{
+    position: absolute;
+    top:70px;
+    left: 76px;
+    color:black;
+}
+.div_2 .all_mor{
+    display: flex;
+    justify-content:center;
+
+
+}
+.div_2 .all_mor .mrbaa1{
+display: inline-block;
+width: 400px;
+    height: 200px;
+   margin:70px; 
+    padding: 15px;
+      background: #FFFFFF;
+
+}
+.div_2 .all_mor .mrbaa2{
+    position: absolute;
+    top: 53px;
+    left: 590px;
+    padding: 15px;
+
+    width: 400px;
+    height:300px;
+    background: #FFFFFF;
+
+}
+/* end for div_2*/
+
+/* stary for div_3*/
+.div_3{
+    margin:50px 70px
+    
+
+}
+.div_3 h3{
+    margin:20px;
+}
+
+.div_3 .all{
+    display: flex;
+    position: relative;
+    height: 200px;
+    width:950px;
+    margin: 15px 0;
+}
+.div_3 .all .describtion{
+    width:500PX;
+    margin: 0px 10px;
+}
+.div_3 .all .but_1{
+    padding: 8px;
+    width: 70px;
+    border-radius:calc(70px/2);
+  
+}
+.div_3 .all .link {
+    position:absolute;
+    top: 45px;
+    left: 320px;
+}
+
+.div_3 .all .link a{
+    color:black;
+    text-decoration: none;
+}
+
+
+/* end for div_3*/
+
+/* start for div_3*/
+
+.icon{
+    font-size: 30px;
+    padding-bottom: 15px;
+    color: #21243D;
+ }
+ .icon i{
+     padding:0 16px;
+     padding-top: 50px;
+ }
+ .footer {
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+     align-items: center;
+     padding-bottom: 40px;
+ }
+ .footer p{
+   padding-right: 5px;
+   font-size: 14px;
+ }
+ 
+/* end for div_3*/
+
+
+
+
+
+
